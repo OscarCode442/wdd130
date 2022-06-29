@@ -343,8 +343,8 @@ nav {
         color: #6f7364;
     }
 
-    faq-link{
-        text-align: center;
+    /* faq-link{
+        text-align: center; */
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50% auto;
