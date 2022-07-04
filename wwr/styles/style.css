@@ -10,6 +10,7 @@ nav a{
     color: #150578;
     text-decoration: none;
     padding: 10px;
+    flex: auto;
 
 }
 
