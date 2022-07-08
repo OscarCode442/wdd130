@@ -5,29 +5,89 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="oscar-site-plan\mypage.css">
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap');
+    body{
+      background-color: #999;
+      font-family: 'Roboto', sans-serif, 'IM Fell French Canon SC','Charis SIL';
+    }
+    .container{
+      width: 80%;
+      margin: 0 auto;
+    }
+    .social{
+      /* display: flex; */
+      padding: 20px;
+    }
+    .lower-image{
+      width: 400%;
+      justify-content: center;
+      justify-items: center;
+      width: 100vw;
+      position: relative;
+
+    }
+    .navbar a{
+      display: inline-flex;
+      padding: 10px;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    
+    .home-image{
+      display: flex;
+      padding: 2px;
+      margin: 1px;
+      padding: 10px;
+    }
+    #m-head{
+      text-align: center;
+      font-family: 'Roboto' swap;
+    }
+    .home-m h3{
+      text-align: center;
+
+    }
+    #s{
+      width: 400%;
+    }
+    #f{
+      width: 50%;
+      margin: 0 auto ;
+      margin-right: 10px;
+    }
+    footer a{
+      display: inline;
+      text-decoration: none;
+      padding: 20px;
+    }
+
+  </style>
 </head>
 <body>
-  <header>
-    <a href=""><img src="oscar-site-plan/rsz_1rsz_oscar_leisure-logos.jpg" alt=""></a>
-    <nav>
+  <header class="container">
+    <a class="logo" href=""><img src="rsz_1rsz_oscar_leisure-logos.jpg" alt=""></a>
+    <nav class="navbar">
       <a href="index.html">Home</a>
       <a href="contactus.html">Contact Us</a>
       <a href="faqme.html">Faq</a>
     </nav>
   </header>
-  <main>
-    <div>
+  <main class="container">
+    <div class="home-m">
       <h3>IN  NEED OF ACCOMODATION ABROAD?</h3>
       <p>
         Explore the world with oscarleisure.com. big savings on homes, hotels, flights, car rentals, taxis, and attractions  build your perfect trip on any budget.
       </p>
     </div>
-    <div>
-      <img src="depositphotos_64906397-stock-photo-textaccommodation-on-sign (1).jpg" alt="">
-      <img src="depositphotos_47440153-stock-photo-young-woman-looking-for-a.jpg" alt="">
+    <div class="home-image">
+     <div class="image-f"> <img src="depositphotos_64906397-stock-photo-textaccommodation-on-sign (1).jpg" alt=""></div>
+     <div class="image-s"> <img src="depositphotos_47440153-stock-photo-young-woman-looking-for-a.jpg" alt=""></div>
     </div>
-    <div>
-      <h3>why choose us?</h3>
+    <div class="message-body">
+      <h3 id="m-head">why choose us?</h3>
       <p>
         
         Knowing where to stay is one of the first challenges of planning any trip. Unless someone recommends their favourite hotel or you return to somewhere you know you love, you'll find yourself doing a hotel search. Whether you're looking for a homely apartment, a centrally-located property or something super unique, there's one booking site that comes highly recommended. Get insider knowledge and tips from an ex Customer Service Executive in our latest blog; why choose <br>
@@ -42,22 +102,23 @@
 
       </p>
       
-      <span>
-         <img src="oscar-site-plan/istockphoto-1303630250-170667a.jpg" alt="image for page"> 
-        <img src="oscar-site-plan/istockphoto-1343156358-170667a.jpg" alt="image for page">
+      <span class="lower-image">
+         <span id="f"><img src="istockphoto-1303630250-170667a.jpg" alt="image for page"> </span>
+         <span id="s"><img src="istockphoto-1343156358-170667a.jpg" alt="image for page"></span>
       </span>
     </div>
+    <footer>
+      <h3>Dry Oar &copy; 2022 - Japhet Ukaegbu</h3>
+            <a href="My project.jpg">Site Plan</a>
+            <a href="image2_adobe_express.jpeg">Contact Us</a>
+            <a href="">Faq</a>
+            <div class="social">
+                <a target="_blank" href="https://facebook.com"><img src="facebook.png" alt="fb icon"></a>
+                <a target="_blank" href="https://twitter.com"><img src="twitter.png" alt="twitter icon"></a>
+                <a target="_blank" href="https://instagram.com"><img src="instagram.png" alt="instagram icon"></a>
+            </div>
+    </footer>
   </main>
 </body>
-<footer>
-  <h3>Dry Oar &copy; 2022 - Japhet Ukaegbu</h3>
-        <a href="oscar-site-plan/site-plan.html">Site Plan</a>
-        <a href="conatctus.html">Contact Us</a>
-        <a href="">Faq</a>
-        <div class="social">
-            <a target="_blank" href="https://facebook.com"><img src="facebook.png" alt="fb icon"></a>
-            <a target="_blank" href="https://twitter.com"><img src="twitter.png" alt="twitter icon"></a>
-            <a target="_blank" href="https://instagram.com"><img src="instagram.png" alt="instagram icon"></a>
-        </div>
-</footer>
+
 </html>
