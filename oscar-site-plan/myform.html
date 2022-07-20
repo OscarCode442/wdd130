@@ -59,7 +59,7 @@
       height: 500px;
     }
     #f{
-      width: 50px;
+      width: 50%;
       margin: 0 auto ;
       margin-right: 10px;
       height: 500px;
@@ -146,6 +146,7 @@ body {
 }
 
   </style>
+  <link rel="stylesheet" href="mypage.css">
 </head>
 <body>
   <header class="container">
@@ -166,37 +167,35 @@ body {
     </nav>
   </header>
   <main class="container">
-    <div class="home-m">
-      <h3>IN  NEED OF ACCOMODATION ABROAD?</h3>
-      <p>
-        Explore the world with oscarleisure.com. big savings on homes, hotels, flights, car rentals, taxis, and attractions  build your perfect trip on any budget.
-      </p>
+    <div class="contact-image">
+        <img class="contact-image" src="contactme.jpg" alt="">
     </div>
-    <div class="home-image">
-     <div class="image-f"> <img src="depositphotos_64906397-stock-photo-textaccommodation-on-sign (1).jpg" alt=""></div>
-     <div class="image-s"> <img src="depositphotos_47440153-stock-photo-young-woman-looking-for-a.jpg" alt=""></div>
+    <div>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="nigeria">Nigeria</option>
+                <option value="usa">USA</option>
+                <option value="world">The Rest of the World</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </div>
-    <div class="message-body">
-      <h3 id="m-head">why choose us?</h3>
-      <p>
-        
-        Knowing where to stay is one of the first challenges of planning any trip. Unless someone recommends their favourite hotel or you return to somewhere you know you love, you will find yourself doing a hotel search. Whether you're looking for a homely apartment, a centrally-located property or something super unique, there's one booking site that comes highly recommended. Get insider knowledge and tips from an ex Customer Service Executive in our latest blog; why choose <br>
-        Choosing the right accommodation for your trip is important; a real deal maker or breaker when it comes to a successful holiday. With oscarleisure.com searching for the right hotel is simple and hassle-free.   <br>
-        oscarleisure.com is an incredibly user-friendly hotel booking website. As well as having endless search options, you can dive straight into the destination page and see everything they have to offer for your chosen area. From there, you can narrow it down as much as you wish. <br>
-        When choosing a property, not only do you have reviews to help guide you, but also review scores that give you an indication of whether previous guests got what they were expecting from their stay. These scores are very handy when picking the accommodation that's right for you. Use them to get first hand advice on the friendliness of the staff, the cleanliness of the rooms, the facilities on offer and the accuracy of the photos presented on the website. <br>
-       
-       
-        
-        Finding somewhere to stay on your next trip doesn't have to be a headache. Pick your location and start searching with a simple, easy to use website. If you need a place to lay your head in a foreign land or even just down the road from work, find the widest range in the world on oscarleisure.com.
-
-
-      </p>
-      
-      <span class="lower-image">
-         <span id="f"><img src="istockphoto-1303630250-170667a.jpg" alt="image for page"> </span>
-         <span id="s"><img src="istockphoto-1343156358-170667a.jpg" alt="image for page"></span>
-      </span>
-    </div>
+    
     <footer>
       
             <a href="index.html">Home</a>
